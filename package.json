@@ -1,8 +1,12 @@
 {
-  "name": "unofficial-homestuck-collection",
-  "description": "An offline collection of Homestuck and its related works.",
+  "name": "unofficial-problem-sleuth-collection",
+  "description": "An offline collection of Problem Sleuth and its related works.",
   "author": "GiovanH",
   "contributors": [
+    {
+      "name": "Cable (CHORDS!)",
+      "url": "https://www.cablechords.com"
+    },
     {
       "name": "Bambosh",
       "url": "https://bambosh.dev"
@@ -15,9 +19,9 @@
   "engines": {
     "node": "18.20"
   },
-  "version": "2.7.2",
+  "version": "1.0.0",
   "license": "GPL-3.0*",
-  "repository": "github:GiovanH/unofficial-homestuck-collection",
+  "repository": "github:cablechords/unofficial-problem-sleuth-collection",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve webapp/browser.js",

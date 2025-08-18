@@ -1,6 +1,6 @@
 -include .env
 
-CONFIG_JSON_PATH = "${APPDATA}/unofficial-homestuck-collection/config.json"
+CONFIG_JSON_PATH = "${APPDATA}/unofficial-problem-sleuth-collection/config.json"
 
 .SECONDEXPANSION:
 .SUFFIXES:

@@ -30,20 +30,20 @@
       <section>
         <h2>Still here?</h2>
         <p>
-          Maybe you're hesitating. <em>"Isn't there something I need to know or do in order to read Homestuck?"</em> Not at all! Just start at the beginning, take it one page at a time, and stick with it until it gets its hooks into you. 
+          Maybe you're hesitating. <em>"Isn't there something I need to know or do in order to read Problem Sleuth?"</em> Not at all! Just start at the beginning, take it one page at a time, and stick with it until it gets its hooks into you. 
         </p>
         <p>
           New reader mode will protect you from everything in the collection that could possibly be considered a spoiler. What I don't recommend is trying to look stuff up online, at least for a while. (This includes external links within the collection, marked like <a href="https://bambosh.github.io/unofficial-homestuck-collection/">this</a>, which go to the Real Internet!)<br />
           Late-arrival spoilers will slap you in the face. Try asking a friend! 
         </p>
         <p>
-          Failing that, Homestuck fan communities are often happy to help newcomers and will answer your questions, although they're not set up to provide spoiler-free experiences.
+          Failing that, Problem Sleuth fan communities are often happy to help newcomers and will answer your questions, although they're not set up to provide spoiler-free experiences.
         </p>
       </section>
 
       <section>
         <h2><em>"Ok, but I still want some context."</em></h2>
-        <p>There's a fair chunk of history behind the format of Homestuck and the other MS Paint Adventures, which is probably best left explained by the big man himself. <a href="/faqs/new">If you're curious, check out the original introduction page by Homestuck's author, Andrew Hussie.</a></p>
+        <p>There's a fair chunk of history behind the format of MS Paint Adventures, which is probably best left explained by the big man himself. <a href="/faqs/new">If you're curious, check out the original introduction page by Problem Sleuth's author, Andrew Hussie.</a></p>
       </section>
 
       <Media url="assets://images/newreaders_sig.gif" />
@@ -51,7 +51,7 @@
     <section class="cardBody helpSection" v-if="cardSelection == 'usage'">
       <section>
         <h2>GENERAL NAVIGATION</h2>
-        <p>In The Unofficial Homestuck Collection, <a href="/">the homepage</a> is your main hub for accessing content! You should be able to get a glance of everything the collection contains from here. If you want to quickly navigate to another part of the collection, your first stop should be the homepage.</p>
+        <p>In The Unofficial Problem Sleuth Collection, <a href="/">the homepage</a> is your main hub for accessing content! You should be able to get a glance of everything the collection contains from here. If you want to quickly navigate to another part of the collection, your first stop should be the homepage.</p>
         <p>Got new reader mode enabled? Wondering about the mysterious question marks plastered everywhere? How do you find out what they are? By reading Homestuck! The goal of new reader mode is to provide a safe place for you to make your way through the story, while reducing the risk of learning anything in advance. This means that as long as certain content is considered a "spoiler", you will be prevented from accessing it.</p>
         <p>Don't feel like you have to remember when each thing is scheduled to unlock, though! When something becomes available in the archive, you'll be alerted by a small notification at the bottom of the screen.</p>
       </section>

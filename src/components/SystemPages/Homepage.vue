@@ -86,6 +86,21 @@
 
         <div class="cardContent cardEntry bqCard">
           <div class="icon">
+            <a href="/mspa/5" ><Media url="/images/archive_beta.gif" /></a>
+            <p class="date">Apr 2009</p>
+            <p class="date">8 pages</p>
+          </div>
+          <div class="description">
+            <h2><a href="/mspa/5" >Homestuck BETA</a></h2>
+            <p>Homestuck was a webcomic Hussie made. It didn't really go anywhere, this was its prototype made entirely in flash.</p>
+            <div class="links">
+              > <a href="/log/5" >Adventure Log</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="cardContent cardEntry bqCard">
+          <div class="icon">
             <a href="/mspa/2" ><Media url="/images/archive_bq.gif" /></a>
             <p class="date">Jun - Jul 2007</p>
             <p class="date">47 pages</p>
@@ -110,7 +125,7 @@
             <h2><a href="/mspa/1" >Jailbreak</a></h2>
             <p><em href="/mspa/1">A guy tries to escape from prison.</em></p><br>
             <p>The very first MS Paint Adventure. Andrew Hussie ran it as a game on his personal forum, with a rule that forced him to follow the first command suggested after each post. This resulted in barely controlled chaos.</p><br>
-            <p>Jailbreak was the origin point of several long running jokes that would later return in Homestuck.</p>
+            <p>Jailbreak was the origin point of several long running jokes that would later return in Problem Sleuth.</p>
             <div class="links">
               > <a href="/log/1" >Adventure Log</a>
             </div>
@@ -201,56 +216,11 @@
           <template v-slot:title>MSPA Newsposts</template>
           <p>An archive of official newsposts, ranging the entire lifespan of the MSPA website.</p>
         </HomeRowItem>
-        <HomeRowItem
-          class="rowItem"
-          href="/blogspot"
-          thumbsrc="/archive/collection/archive_blogspot.png"
-          afterpage="002816"
-          date="Dec 2008 - Jul 2010">
-          <template v-slot:title>Blogspot</template>
-          <p>Used by Andrew Hussie for behind the scenes commentary during the early days of Homestuck.</p>
-        </HomeRowItem>
-        <HomeRowItem
-          class="rowItem"
-          href="/formspring"
-          thumbsrc="/archive/collection/archive_formspring.png"
-          afterpage="003478"
-          date="Feb 2010 - Aug 2011">
-          <template v-slot:title>Formspring</template>
-          <p>Q&As with Andrew Hussie, providing context and commentary on Homestuck until it was dropped in mid-2011.</p>
-        </HomeRowItem>
-        <HomeRowItem
-          class="rowItem"
-          href="/tumblr"
-          thumbsrc="/archive/collection/archive_tumblr.png"
-          afterpage="006010"
-          date="Oct 2011 -  Mar 2013">
-          <template v-slot:title>Tumblr</template>
-          <p>Picked up in place of Formspring. Used mainly for announcements and Q&As, then abandoned in 2013.</p>
-        </HomeRowItem>
       </div>
     </div>
 
     <div class="card unsortedCard noHeaderCard">
       <div class="cardContent cardRows">
-        <HomeRowItem
-          class="rowItem"
-          href="/desktops"
-          thumbsrc="/archive/collection/archive_desktops.png"
-          afterpage="003257"
-          date="Apr 2009 - Oct 2009">
-          <template v-slot:title>Desktop Wallpapers</template>
-          <p>A collection of wallpapers that was maintained during the first few months of Homestuck.</p>
-        </HomeRowItem>
-        <HomeRowItem
-          class="rowItem"
-          href="/tbiy"
-          thumbsrc="/archive/collection/archive_tbiy.png"
-          afterpage="004527"
-          date="Oct 2010">
-          <template v-slot:title>The Baby is You</template>
-          <p>After the MSPA Forums banned a certain "genre" of fanart, this was created by Toby Fox as an act of rebellion.</p>
-        </HomeRowItem>
         <HomeRowItem
           class="rowItem"
           href="/vigilprince"

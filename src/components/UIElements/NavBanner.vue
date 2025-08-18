@@ -45,7 +45,6 @@ export default {
         ],
         [
           "/news",
-          "/music"
         ],
         [
           "/evenmore",
@@ -58,7 +57,7 @@ export default {
         // default theme in settings is the empty string
         mspa: {
           "https://www.homestuck.com": "HOMESTUCK.COM",
-          "/": "HOMESTUCK COLLECTION",
+          "/": "PROBLEM SLEUTH COLLECTION",
 
           "toggleJumpBox": "JUMP",
           "/help": "HELP",
@@ -68,30 +67,11 @@ export default {
           "/search": "SEARCH",
 
           "/news": "NEWS",
-          "/music": "MUSIC",
           "toggleBookmarks": "SAVE/LOAD",
 
           "/evenmore": "MORE",
           "/settings": "SETTINGS",
           "/credits": "CREDITS"
-        },
-        A6A6: {
-          "/": "WORTHLESS GARBAGE.",
-
-          "toggleJumpBox": "WHO CARES?",
-          "/help": "STUPID.",
-
-          "/map": "WOW.",
-          "/log": "NO.",
-          "/search": "BORING.",
-
-          "/news": "BULLSHIT.",
-          "/music": "DUMB NOISE.",
-          "toggleBookmarks": "TRASH.",
-          
-          "/evenmore": "WHO CARES?",
-          "/credits": "MORONS.",
-          "/settings": "WHATEVER."
         }
       }
     }

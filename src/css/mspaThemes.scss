@@ -1,4 +1,5 @@
-#app > *, .tabFrame > div {
+#app>*,
+.tabFrame>div {
 
 	--app-icon: "@/icons/icon";
 
@@ -35,9 +36,9 @@
 	--page-links-active: var(--page-links);
 
 	--system-skycolor: #35bfff;
-	--system-background: 
+	--system-background:
 		url('../src/assets/homebg_right.png') left top repeat-y fixed,
-      	url('../src/assets/homebg_left.png') right top repeat-y fixed;
+		url('../src/assets/homebg_left.png') right top repeat-y fixed;
 
 	--ctx-bg: #EEEEEE;
 	--ctx-frame: #535353;
@@ -89,7 +90,7 @@
 			url('../src/assets/themes/night_homebg_right.png') left top repeat-y fixed,
 			url('../src/assets/themes/night_homebg_left.png') right top repeat-y fixed;
 		--system-skycolor: #1e1e1e;
-		
+
 		--ctx-bg: #262626;
 		--ctx-frame: #000000;
 		--ctx-select: #5599ff;
@@ -105,7 +106,7 @@
 
 	&.retro {
 		--app-icon: "@/icons/default";
-		
+
 		--nav-bg: #000000;
 		--nav-link: #CCCCCC;
 
@@ -123,12 +124,22 @@
 
 		--ctx-bg: #FFFFFF;
 		--ctx-divider: #DDDDDD;
-		
+
 		--page-links-active: -webkit-activelink;
-		
+
 		&.customStyles .navBanner .candyCorn:before {
 			color: white;
 			content: "||"
+		}
+
+		a.nextArrowLink {
+			font-family: Verdana, Geneva, Tahoma, sans-serif;
+			font-size: 16px;
+			font-weight: bold;
+		}
+
+		p {
+			font-size: 16px;
 		}
 	}
 
@@ -236,7 +247,13 @@
 		#titleBarText {
 			font-size: 12px;
 		}
-		#titleBarText, .tab,  .bookmarkWindow, .findBox, .jumpBoxInput, &.customStyles * {
+
+		#titleBarText,
+		.tab,
+		.bookmarkWindow,
+		.findBox,
+		.jumpBoxInput,
+		&.customStyles * {
 			font-family: "Comic Sans MS", "Comic Sans", cursive;
 		}
 	}
@@ -264,7 +281,7 @@
 		--page-nav-divider: #5599ff;
 		--page-links: #5599ff;
 		--page-log-bg: #000000;
-		
+
 		--system-skycolor: #1D1D1D;
 		--system-background: linear-gradient(0.25turn, #752020, #1D1D1D, #252C77);
 
@@ -302,14 +319,14 @@
 		--page-nav-divider: red;
 		--page-nav-meta: red;
 		--page-links: red;
-		
+
 		--ctx-bg: #262626;
 		--ctx-frame: #000000;
 		--ctx-select: red;
 		--ctx-divider: #ffffff;
 
 		--system-background:
-        	linear-gradient(360deg, rgba(25,31,83,1) 0%, rgba(23,34,80,1) 3%, rgba(20,38,73,1) 5%, rgba(19,43,66,1) 8%, rgba(22,49,61,1) 11%, rgba(33,57,51,1) 13%, rgba(33,57,51,1) 15%, rgba(39,58,45,1) 17%, rgba(54,57,38,1) 20%, rgba(64,57,39,1) 22%, rgba(74,58,38,1) 24%, rgba(85,58,38,1) 26%, rgba(91,57,37,1) 28%, rgba(91,57,37,1) 30%, rgba(87,56,39,1) 31%, rgba(74,45,27,1) 32%, rgba(132,101,21,1) 33%, rgba(192,148,10,1) 34%, rgba(188,151,6,1) 36%, rgba(186,148,8,1) 37%, rgba(179,125,5,1) 38%, rgba(167,105,2,1) 39%, rgba(165,94,3,1) 40%, rgba(152,66,2,1) 42%, rgba(145,40,1,1) 44%, rgba(137,5,6,1) 47%, rgba(140,4,18,1) 51%, rgba(116,0,0,1) 53%, rgba(115,0,0,1) 55%, rgba(86,0,0,1) 58%, rgba(102,0,0,1) 62%, rgba(45,0,0,1) 68%, rgba(38,0,0,1) 71%, rgba(29,0,0,1) 73%, rgba(11,0,0,1) 80%, rgba(17,0,0,1) 90%, rgba(24,0,0,1) 100%) fixed;
+			linear-gradient(360deg, rgba(25, 31, 83, 1) 0%, rgba(23, 34, 80, 1) 3%, rgba(20, 38, 73, 1) 5%, rgba(19, 43, 66, 1) 8%, rgba(22, 49, 61, 1) 11%, rgba(33, 57, 51, 1) 13%, rgba(33, 57, 51, 1) 15%, rgba(39, 58, 45, 1) 17%, rgba(54, 57, 38, 1) 20%, rgba(64, 57, 39, 1) 22%, rgba(74, 58, 38, 1) 24%, rgba(85, 58, 38, 1) 26%, rgba(91, 57, 37, 1) 28%, rgba(91, 57, 37, 1) 30%, rgba(87, 56, 39, 1) 31%, rgba(74, 45, 27, 1) 32%, rgba(132, 101, 21, 1) 33%, rgba(192, 148, 10, 1) 34%, rgba(188, 151, 6, 1) 36%, rgba(186, 148, 8, 1) 37%, rgba(179, 125, 5, 1) 38%, rgba(167, 105, 2, 1) 39%, rgba(165, 94, 3, 1) 40%, rgba(152, 66, 2, 1) 42%, rgba(145, 40, 1, 1) 44%, rgba(137, 5, 6, 1) 47%, rgba(140, 4, 18, 1) 51%, rgba(116, 0, 0, 1) 53%, rgba(115, 0, 0, 1) 55%, rgba(86, 0, 0, 1) 58%, rgba(102, 0, 0, 1) 62%, rgba(45, 0, 0, 1) 68%, rgba(38, 0, 0, 1) 71%, rgba(29, 0, 0, 1) 73%, rgba(11, 0, 0, 1) 80%, rgba(17, 0, 0, 1) 90%, rgba(24, 0, 0, 1) 100%) fixed;
 		--system-skycolor: #000;
 
 		--saves-bg: #454545;
@@ -346,7 +363,7 @@
 		--page-nav-meta: #A1EE26;
 		--page-links: #A1EE26;
 		--page-log-bg: #2f2f2f;
-		
+
 		--ctx-bg: #2f2f2f;
 		--ctx-frame: #000000;
 		--ctx-select: #111111;
@@ -411,30 +428,32 @@
 		--saves-scrollHover: #4040ee;
 
 		&.customStyles {
-			.nextArrowLink{
+			.nextArrowLink {
 				visibility: hidden;
 				font-size: 0px;
 			}
-			.nextArrowLink:after{
+
+			.nextArrowLink:after {
 				display: inline-block;
 				visibility: visible;
 				margin-left: 10px;
 				content: url(assets://images/trickster_sitegraphics/sucker.gif);
 			}
 		}
+
 		.reducedMotion & {
-    		--page-pageFrame: repeating-linear-gradient(
-    			to bottom,
-    			#00117e,
-    			#00117e 40px,
-    			#0019b8 40px,
-    			#0019b8 80px
-    		);
-			.nextArrowLink{
-			    visibility: initial;
-			    font-size: inherit;
+			--page-pageFrame: repeating-linear-gradient(to bottom,
+					#00117e,
+					#00117e 40px,
+					#0019b8 40px,
+					#0019b8 80px);
+
+			.nextArrowLink {
+				visibility: initial;
+				font-size: inherit;
 			}
-			.nextArrowLink:after{
+
+			.nextArrowLink:after {
 				display: none;
 			}
 		}
@@ -545,7 +564,8 @@
 		&.customStyles .navBanner {
 			border-bottom: 4px solid #095486;
 			height: 23px;
-			a { 
+
+			a {
 				font-family: "Century Gothic", arial, sans-serif;
 				font-size: 13px;
 				font-weight: bold;
@@ -557,7 +577,7 @@
 		--nav-bg: #000;
 		--nav-candyCornContent: url(assets://images/candycorn_mspfa.png);
 	}
-	
+
 	&.msword {
 		--page-pageContent: #ffffff;
 		--page-pageFrame: #9099ae;
@@ -569,6 +589,7 @@
 			border: 1px solid black;
 			border-top: none;
 		}
+
 		.pageContent {
 			border: 1px solid black;
 		}

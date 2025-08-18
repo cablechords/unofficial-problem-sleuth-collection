@@ -14,11 +14,6 @@
               <select class="vizStorySelect" 
                 v-if="!$localData.settings.mspaMode"
                 v-model="vizStory" >
-                <option
-                  value="homestuck"
-                  key="homestuck">
-                  Homestuck
-                </option>
                 <option 
                   value="problem-sleuth" 
                   key="problem-sleuth">

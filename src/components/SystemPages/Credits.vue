@@ -2,55 +2,17 @@
   <GenericPage v-if="routeParams.mode == 'artcredits'">
     <Media url="images/logo.gif" class="logo"/>
     <div class="artCredits" >
-      <div class="centeredProse prose">
-        <h2>ART CREDITS</h2>
-
-        After the first year of <a href="/mspa/6">Homestuck</a>, starting with <a href="/mspa/003701">this page</a>, MSPA began including contributions from other artists into the animations. The artists are credited here.
-
-        <br><br>
-        -------------------------------------------------------
-        <br><br>
-
-        <template v-for="(credit, ci) in artCredits">
-          <div class="artCredit" :key="ci" v-if="!credit.pages.some(p => $pageIsSpoiler(p))">
-            <template v-for="(page, pi) in credit.pages" >
-              <span v-if="page === '-'" :key="`${pi}a`"> through </span>
-              <template v-else>
-                <StoryPageLink
-                  :mspaId='page' credit
-                  class="artCreditLink"
-                  :key="`${pi}b`">
-                </StoryPageLink>
-              </template>
-
-            </template>
-            <span v-html="credit.desc"></span>
-          </div>
-        </template>
-
-        <div class="artCredit" v-if="$pageIsSpoiler('010027')">
-          Keep reading to unlock!
-        </div>
-      </div>
     </div>
   </GenericPage>
   <GenericCardPage v-else>
-    <div class="card">
-      <div class="creditDisambig">
-        <div class="creditLinks">
-          <div class="credit"><a href="/music/features"><Media url="/archive/collection/credits_sound.png" /><br>SOUND CREDITS</a></div>
-          <div class="credit"><a href="/credits/artcredits"><Media url="/archive/collection/credits_art.png" /><br>ART CREDITS</a></div>
-        </div>
-      </div>
-    </div>
         
     <div class="card">
       <div class="cardContent">
         <div class="archiveCredits cardBody">
           <div class="title center">
-            <h1>The Unofficial Homestuck Collection</h1>
+            <h1>The Unofficial Problem Sleuth Collection</h1>
             <p>
-              by Bambosh and GiovanH
+              by Cable (CHORDS!)
             </p>
           </div>
           <h2>Archive credits:</h2>

@@ -13,9 +13,9 @@ export default {
   computed: {
     logo_src() {
       if (this.$localData.settings.reducedMotion)
-        return "assets://archive/collection/logo_v2_reduced.webm"
+        return "assets://archive/collection/upsc_logo.png"
 
-      return "assets://archive/collection/logo_v2_full.webm"
+      return "assets://archive/collection/upsc_logo.png"
     }
   }
 }

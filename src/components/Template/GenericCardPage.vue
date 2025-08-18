@@ -1,5 +1,5 @@
 <template>
-  <div class="pageBody customStyles retro">
+  <div class="pageBody customStyles">
     <NavBanner class="navBanner" useCustomStyles="true" />
     <slot></slot>
   </div>

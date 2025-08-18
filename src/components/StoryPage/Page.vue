@@ -313,9 +313,9 @@ export default {
     .pageFrame {
       background: var(--page-pageFrame);
 
-      width: 950px;
-      padding-top: 7px;
-      padding-bottom: 23px;
+      width: 800px;
+      padding-top: 0px;
+      padding-bottom: 0px;
       margin: 0 auto;
       position: relative; // Allow things to align to the page
 

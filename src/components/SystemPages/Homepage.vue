@@ -1,5 +1,5 @@
 <template>
-  <div class="pageBody customStyles homepage retro">
+  <div class="pageBody customStyles homepage">
     <NavBanner useCustomStyles="true" />
     <div class="card logoCard">
       <a href="/" class="cardContent">
@@ -281,7 +281,7 @@ export default {
     return {}
   },
   title: function(ctx) {
-    return "The Unofficial Homestuck Collection"
+    return "The Unofficial Problem Sleuth Collection"
   },
   computed: {
     modHomeRowItems() {return this.$archive.tweaks.modHomeRowItems || []},

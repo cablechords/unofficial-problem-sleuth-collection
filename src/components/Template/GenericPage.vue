@@ -1,5 +1,5 @@
 <template>
-  <div class="pageBody customStyles retro" :class="{pixelated: $localData.settings.pixelScaling}">
+  <div class="pageBody customStyles" :class="{pixelated: $localData.settings.pixelScaling}">
     <NavBanner useCustomStyles="true" />
     <div class="pageFrame">
       <MediaEmbed v-if="logo" :url="logo" class="logo"/>

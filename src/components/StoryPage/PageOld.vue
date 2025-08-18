@@ -16,13 +16,12 @@
           <div class="textContent">
           <FlashCredit :pageId="thisPage.pageId"/>
           <TextContent :key="thisPage.pageId" :pageId="thisPage.pageId"  :content="thisPage.content" ref="textContent"/>
-          
+          <PageNav :thisPage="thisPage"
+            :nextPages="hideNav ? [] : nextPagesArray" ref="pageNav" />
             <!-- :class="{'hidden': hideNav}" /> -->
         </div>
         <Footnotes :pageId="thisPage.pageId" class="footnotesContainer"/>
       </div>
-      <PageNav :thisPage="thisPage"
-            :nextPages="hideNav ? [] : nextPagesArray" ref="pageNav" />
       <div class="hidden">
         <!-- Preload images -->
         <Media v-for="url in nextPagesMedia" :key="url" :url="url" class="panel"/>
@@ -320,32 +319,25 @@ export default {
       margin: 0 auto;
       position: relative; // Allow things to align to the page
 
-      //flex: 0 1 auto;
-      //display: flex;
+      flex: 0 1 auto;
+      display: flex;
       justify-content: center;
 
       .pageContent {
         background: var(--page-pageContent);
 
-        //min-width: 950px;
-        width: 650px;
+        max-width: 950px;
+        min-width: 650px;
         display: flex;
         flex: 0 1 auto;
         align-items: center;
         flex-flow: column;
-        margin-left:auto;
-        margin-right:auto;
 
         .footnotesContainer {
           width: 100%;
         }
 
-        img {
-          max-width: 650px;
-        }
-
         .mediaContent {
-          
           display: flex;
           align-items: center;
           flex-flow: column;
@@ -369,9 +361,7 @@ export default {
             .panel {
               &:not(:last-child) {
                 margin-bottom: 20px;
-                max-width: 650px;
               }
-              
             }            
           }
         }

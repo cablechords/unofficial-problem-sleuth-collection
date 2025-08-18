@@ -1,5 +1,6 @@
 <template>
   <nav class="pageNavigation">
+    <div style="max-width: 650px; margin-left: auto; margin-right: auto;">
     <div class="nextArrow" v-if="nextPages.length > 0">
       <div v-for="(page, index) in nextPages" :key="index">
         <p v-if="('pageId' in page && 'title' in page)">
@@ -25,6 +26,7 @@
         </li>
       </ul>
     </div>
+  </div>
   </nav>
 </template>
 
@@ -103,7 +105,7 @@ export default {
 
 <style scoped lang="scss">
   .nextArrow{
-    margin: 0 0 30px 0;
+    margin: 16px 0px 16px 0px;
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: x-large;
     font-weight: normal;
@@ -138,7 +140,6 @@ export default {
     }
     .navOptions {
       color: var(--page-nav-divider);
-
       a { color: var(--page-links); }
       a:link:active { color: var(--page-links-active); }
     }

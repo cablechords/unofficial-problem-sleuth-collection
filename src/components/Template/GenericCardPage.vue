@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import NavBanner from '@/components/UIElements/NavBanner.vue'
+import NavBanner from '@/components/UIElements/NavBannerOld.vue'
 
 export default {
   name: 'GenericCardPage',

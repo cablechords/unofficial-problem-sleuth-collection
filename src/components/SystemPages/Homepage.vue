@@ -1,5 +1,5 @@
 <template>
-  <div class="pageBody customStyles homepage">
+  <div class="pageBody customStyles homepage retro">
     <NavBanner useCustomStyles="true" />
     <div class="card logoCard">
       <a href="/" class="cardContent">
@@ -17,26 +17,6 @@
       </div>
     </div>
     
-    <div class="card tight" v-if="Object.keys($archive.mspfa).length > 0">
-      <div class="cardContent cardEntry">
-        <div class="icon">
-          <a href="/mspfa/" ><Media url="/images/archive_mspfa.gif" /></a>
-          <p class="date">Jan 2010 -</p>
-        </div>
-        <div class="description">
-          <h2><a href="/mspfa/" >MS Paint Fan Adventures</a></h2>
-          <p>Fans began running their own adventures on the MSPA Forums, but with the forum format panels and suggestions were mixed together, and navigation was an issue. In early 2010, lolzorine and nixshadow set up <a href="https://mspfa.com/">MS Paint Fan Adventures</a> as an open adventure reader. You can read a brief history <a href="https://mspfa.com/history/">on the site</a>.</p>
-          <br />
-          <p>With the collapse of the MSPA Forums, MSPFA became the de facto source for hosting small adventures. nixshadow retired, and the site is currently run by Grant.</p>
-          <div class="links autocol">
-            <span v-for="advlink in mspfaLinks" :key="advlink.href">
-              &gt; <a :href="advlink.href"><span v-text="advlink.label" /></a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </div>
-
     <div class="card mspaCard">
       <Media url="/archive/collection/mspa_logo_dark.png" class="logo mspaLogo cardContent" />
       <div class="cardContent mainSection">

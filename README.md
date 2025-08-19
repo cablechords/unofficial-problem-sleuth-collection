@@ -1,6 +1,6 @@
 ![The Unofficial Problem Sleuth Collection](src/assets/collection_logo.png)
 
-Homepage: <https://homestuck.giovanh.com/unofficial-homestuck-collection/>
+Homepage: <https://github.com/cablechords/unofficial-problem-sleuth-collection/>
 
 ---
 

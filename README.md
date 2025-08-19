@@ -4,6 +4,8 @@ Homepage: <https://github.com/cablechords/unofficial-problem-sleuth-collection/>
 
 This is the repository for a self-contained collection that contains Problem Sleuth (with Flash elements fully intact), some other MS Paint Adventures, official Problem Sleuth extra content, and a variety of goodies for the enquiring reader, as well as a variety of unintrusive enhancements to the overall presentation, both for quality and convenience.
 
+The goal of this collection is to allow users to experience a more true to form version of Problem Sleuth with extra bonus content included, and a much smaller Asset Pack size.
+
 To run The Unofficial Homestuck Collection, you need to pair this application with a pack of assets designed specifically to integrate with it. A decent amount of effort has been made to keep this repository free from the majority of that copyrighted content, and (at least for now), it won't contain a link to the place you can find it.
 
 ## Some details on the codebase

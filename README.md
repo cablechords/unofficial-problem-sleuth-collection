@@ -1,4 +1,4 @@
-![The Unofficial Homestuck Collection](src/assets/collection_logo.png)
+![The Unofficial Problem Sleuth Collection](src/assets/collection_logo.png)
 
 Homepage: <https://homestuck.giovanh.com/unofficial-homestuck-collection/>
 

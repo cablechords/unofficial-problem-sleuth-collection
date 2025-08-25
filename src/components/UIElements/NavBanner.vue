@@ -1,21 +1,25 @@
 <template>
   <nav class="navBanner" :class="{customNavBanner: useCustomStyles, pixelated: $localData.settings.pixelScaling}">
     <div class="navList">
-      <template v-for="(group, gi) in urls">
-        <ul :class="'nav' + (gi+1)" :key="'nav' + (gi+1)">
-          <li v-for="href in group">
-            <a v-if="href == 'toggleJumpBox'" @click.prevent="toggleJumpBox()">{{getLabel(href)}}</a>
-            <a v-else-if="href == 'toggleBookmarks'" @click.prevent="toggleBookmarks()">{{getLabel(href)}}</a>
-            <a v-else :href="href">{{getLabel(href)}}</a>
-          </li>
-        </ul>
-        <div v-if="gi + 1 < urls.length" class="candyCorn" />
-      </template>
+      <img src="assets://archive/collection/mspa_menu.gif" usemap="#menumap">
+      <a href="/" style="text-decoration: none;"><img src="assets://archive/collection/logo.gif"></a>
+      <img src="assets://archive/collection/mspa_menu2.gif">
+      <map name="menumap" id="menumap">
+        <area shape="poly" coords="4,21,23,51,64,34,47,3" href="/map" alt="Map">
+        <area shape="poly" coords="19,70,19,79,55,99,77,85,77,78,55,63,71,50,76,34,58,42,46,60,39,56" href="/help" alt="Save">
+        <area shape="poly" coords="81,21,72,22,73,7,122,1,135,49,145,49,139,57,91,67" href="/log" alt="Log">
+        <area shape="poly" coords="87,77,93,95,122,96,122,99,130,98,131,94,155,88,149,71,133,65,104,69" href="/help" alt="Load">
+        <area shape="poly" coords="145,26,156,4,200,21,187,43,165,41,159,59,150,57,158,36" href="/search" alt="Search">
+        <area shape="poly" coords="180,96,160,87,159,66,180,57,200,68,201,85" href="/help" alt="Faqs">
+      </map>
+    
     </div>
   </nav>
 </template>
 
 <script>
+
+import Media from '@/components/UIElements/MediaEmbed.vue'
 
 export default {
   name: 'navBanner',
@@ -155,7 +159,7 @@ export default {
     background: #5a5a5a;
     width: 800px;
     max-width: 100vw;
-    height: 17px;
+    height: 117px;
     display: flex;
     align-content: center;
     justify-content: center;

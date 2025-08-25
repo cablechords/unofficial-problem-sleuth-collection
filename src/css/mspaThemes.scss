@@ -107,7 +107,7 @@
 	&.retro {
 		--app-icon: "@/icons/default";
 
-		--nav-bg: #000000;
+		--nav-bg: #eee;
 		--nav-link: #CCCCCC;
 
 		--page-pageBody: #DDDDDD;
@@ -134,12 +134,13 @@
 
 		a.nextArrowLink {
 			font-family: Verdana, Geneva, Tahoma, sans-serif;
-			font-size: 16px;
+			font-size: 14px;
 			font-weight: bold;
 		}
 
 		p {
-			font-size: 16px;
+			font-size: 14px;
+			font-weight: bold;
 		}
 	}
 

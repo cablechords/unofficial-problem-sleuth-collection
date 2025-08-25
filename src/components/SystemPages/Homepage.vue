@@ -10,7 +10,7 @@
           <a href="/help" >New readers</a> | <a href="/userguide" >How to navigate the collection</a> | <a href="/settings" >Settings</a>
         </div> -->
         <p class="versionNotice" v-if="$archive.version != $data.$expectedAssetVersion">
-          This release of The Unofficial Homestuck Collection is tuned around <strong>v{{$data.$expectedAssetVersion}}</strong> of the asset pack, but it looks like you're currently on <strong>v{{$archive.version}}</strong>.<br><br>
+          This release of The Unofficial Problem Sleuth Collection is tuned around <strong>v{{$data.$expectedAssetVersion}}</strong> of the asset pack, but it looks like you're currently on <strong>v{{$archive.version}}</strong>.<br><br>
           Things <em>may</em> still work, but you should probably update<br />
           to asset pack <strong>v{{$data.$expectedAssetVersion}}</strong> as soon as possible.
         </p>
@@ -28,19 +28,19 @@
             <p class="date">1,674 pages</p>
           </div>
           <div class="description">
-            <h2><a href="/mspa/4" >Problem Sleuth</a></h2>
+            <h2><a href="/unlock/PS_titlescreen" >Problem Sleuth</a></h2>
             <p><em>An adventure about a hard boiled detective in his office.</em></p><br>
             <p>The third MS Paint Adventure. An absurd pastiche of adventure games and JRPG mechanics, all involving absolutely no detective work whatsoever.</p><br>
             <p> With its rampant escalation of chaos and the gradual inclusion of strikingly animated GIFs, Problem Sleuth proved to be MSPA's first major hit.</p>
             <div class="links">
               <div class="left">
-                &gt; <a href="/unlock/PS_titlescreen" >Title screen</a>
+                &gt; <a href="">Continue</a>
               </div>
               <div class="center">
                 &gt; <a href="/log/4" >Adventure Log</a><br>
               </div>
               <div class="right">
-                &gt; <a href="/map/4" v-if="!$pageIsSpoiler('001840')">Adventure Map</a><a disabled v-else>??????</a>
+                &gt; <a href="/map/4" v-if="!$pageIsSpoiler('000000')">Adventure Map</a><a disabled v-else>??????</a>
               </div>
             </div>
           </div>

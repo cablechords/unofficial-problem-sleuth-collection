@@ -1,5 +1,5 @@
 <template>
-  <div class="pageBody customStyles" :class="{pixelated: $localData.settings.pixelScaling}">
+  <div class="pageBody customStyles retro" :class="{pixelated: $localData.settings.pixelScaling}">
     <NavBanner useCustomStyles="true" />
     <div class="pageFrame">
       <MediaEmbed v-if="logo" :url="logo" class="logo"/>
@@ -53,7 +53,7 @@ export default {
     }
 
     //Small screen check
-    @media (max-width: 950px) {
+    @media (max-width: 800px) {
       &{
         overflow-x: hidden;
         height: max-content;
@@ -72,7 +72,7 @@ export default {
     .pageFrame {
       background: var(--page-pageFrame);
 
-      width: 950px;
+      width: 800px;
       padding-top: 7px;
       padding-bottom: 23px;
       margin: 0 auto;
@@ -85,7 +85,7 @@ export default {
 
       .pageContent {
         background: var(--page-pageContent);
-        max-width: 950px;
+        max-width: 800px;
         min-width: 650px;
 
         // Elements position top-to-bottom, centered.

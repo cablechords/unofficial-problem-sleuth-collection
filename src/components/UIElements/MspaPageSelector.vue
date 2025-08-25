@@ -10,11 +10,6 @@
             key="problem-sleuth">
             Problem Sleuth
           </option>
-          <option
-            value="homestuck"
-            key="homestuck">
-            Homestuck
-          </option>
         </select>
         <select class="vizStorySelect"
           v-else

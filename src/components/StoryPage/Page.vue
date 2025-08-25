@@ -1,5 +1,5 @@
 <template>
-  <div class="pageBody customStyles" :class="{pixelated, supercartridge, hscroll, scratchIntermission}" :data-pageid="`${thisPage.storyId}/${thisPage.pageId}`">
+  <div class="pageBody customStyles retro" :class="{pixelated, supercartridge, hscroll, scratchIntermission}" :data-pageid="`${thisPage.storyId}/${thisPage.pageId}`">
     <Banner :tab="tab" :page="thisPage"/>
     <Firefly :tab="tab" v-if="fireflies"/>
     <NavBanner useCustomStyles="true" />
@@ -16,8 +16,11 @@
           <div class="textContent">
           <FlashCredit :pageId="thisPage.pageId"/>
           <TextContent :key="thisPage.pageId" :pageId="thisPage.pageId"  :content="thisPage.content" ref="textContent"/>
-          
-            <!-- :class="{'hidden': hideNav}" /> -->
+          <div style="display: flex;">
+            <img src="assets://archive/collection/pointer.gif" style="width:22px;">
+            <img src="assets://archive/collection/blinkingcursor.gif" style="width:3px;">
+          </div>
+          <!-- :class="{'hidden': hideNav}" /> --> 
         </div>
         <Footnotes :pageId="thisPage.pageId" class="footnotesContainer"/>
       </div>
@@ -295,7 +298,7 @@ export default {
     }
 
     //Small screen check
-    @media (max-width: 950px) {
+    @media (max-width: 800px) {
       &{
         overflow-x: hidden;
         height: max-content;
@@ -314,7 +317,8 @@ export default {
     .pageFrame {
       background: var(--page-pageFrame);
 
-      width: 800px;
+      min-width: 800px;
+      max-width: 800px;
       padding-top: 0px;
       padding-bottom: 0px;
       margin: 0 auto;
@@ -368,7 +372,7 @@ export default {
 
             .panel {
               &:not(:last-child) {
-                margin-bottom: 20px;
+                margin-bottom: 0px;
                 max-width: 650px;
               }
               
@@ -377,7 +381,7 @@ export default {
         }
 
         .textContent{
-          margin-top: 30px;
+          margin-top: 10px;
           width: 600px;
           display: flex;
           flex-direction: column;
